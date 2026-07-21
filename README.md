@@ -49,21 +49,21 @@ Aiko Illustrations 是一个 Codex Skill，用来指导 AI Agent 为中文文章
 克隆仓库：
 
 ```bash
-git clone https://github.com/huangyi201410/ian-xiaohei-illustrations.git
-cd ian-xiaohei-illustrations
+git clone https://github.com/yyyy004/aiko-illustrations.git
+cd aiko-illustrations
 ```
 
 复制 skill 到 Codex skills 目录：
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R ./ian-xiaohei-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R ./aiko-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 安装后，在 Codex 里使用：
 
 ```text
-Use $ian-xiaohei-illustrations 为这篇中文文章设计并生成 5 张 Aiko 怪诞正文配图。
+Use $aiko-illustrations 为这篇中文文章设计并生成 5 张 Aiko 怪诞正文配图。
 ```
 
 ## 怎么用
@@ -71,7 +71,7 @@ Use $ian-xiaohei-illustrations 为这篇中文文章设计并生成 5 张 Aiko �
 ### 只做配图规划
 
 ```text
-Use $ian-xiaohei-illustrations 先不要生图。
+Use $aiko-illustrations 先不要生图。
 请分析下面这篇文章哪里值得配图，输出 5 张左右的 shot list。
 每张图写清楚：放在哪段后、主题、核心意思、结构类型、Aiko 在做什么、建议中文标注词。
 
@@ -81,7 +81,7 @@ Use $ian-xiaohei-illustrations 先不要生图。
 ### 直接生成正文配图
 
 ```text
-Use $ian-xiaohei-illustrations 把下面这篇文章生成 4 张 Aiko 怪诞正文配图。
+Use $aiko-illustrations 把下面这篇文章生成 4 张 Aiko 怪诞正文配图。
 要求：16:9 横版、纯白背景、黑色手绘线稿、少量红橙蓝中文手写批注。
 
 <粘贴文章>
@@ -90,7 +90,7 @@ Use $ian-xiaohei-illustrations 把下面这篇文章生成 4 张 Aiko 怪诞正�
 ### 为单个概念生成一张图
 
 ```text
-Use $ian-xiaohei-illustrations 为“信任不是喊出来的，而是一块证据一块证据铺过去”生成一张正文配图。
+Use $aiko-illustrations 为“信任不是喊出来的，而是一块证据一块证据铺过去”生成一张正文配图。
 画面要怪诞但清爽，Aiko 必须承担核心动作。
 ```
 
@@ -117,7 +117,7 @@ Use $ian-xiaohei-illustrations 为“信任不是喊出来的，而是一块证�
 ├── NOTICE.md
 ├── examples/
 │   └── prompts.md
-└── ian-xiaohei-illustrations/
+└── aiko-illustrations/
     ├── SKILL.md
     ├── agents/
     │   └── openai.yaml
@@ -131,7 +131,7 @@ Use $ian-xiaohei-illustrations 为“信任不是喊出来的，而是一块证�
         └── qa-checklist.md
 ```
 
-真正需要安装到 Codex 的是子目录 `ian-xiaohei-illustrations/`。根目录的 README、LICENSE、NOTICE 和 examples 是 GitHub 分享文档。
+真正需要安装到 Codex 的是子目录 `aiko-illustrations/`。根目录的 README、LICENSE、NOTICE 和 examples 是 GitHub 分享文档。
 
 ## 注意事项
 
